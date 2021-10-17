@@ -1,5 +1,5 @@
-# Study project: Basic web aplication with session and database.
-# technology stack: 
+# Project: Basic web aplication with session and database.
+# Technology stack: 
   * PHP
   * HTML
   * CSS
