@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title></title>
+	
+	<meta name="description" content="Serwisek"/>
+	<meta name="keywords" content="gry"/>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="shortcut icon" href="img/fox.png">
+
+
+	
+</head>
+<body>
+
+	<div class="wrapper">
+		<div class="header">
+			<div class="logo"> 
+				<span style="color:#80CBC4">ksiegarnia</span>.com
+				<div style="clear:both"></div>
+			
+			</div>
+		</div>
+
+		<div class="nav">
+		<ol>
+			<li><a href="#">Strona główna</a></li>
+			<li><a href="#">O mnie</a>
+			<ul>
+				<li><a href="#"> podstrona</li>
+				<li><a href="#"> podstrona</li>
+				<li><a href="#"> podstrona</li>
+				<li><a href="#"> podstrona</li>
+				</li>
+			</ul>
+			<li><a href="#">Oferta</a>
+			<ul>
+					<li><a href="#"> podstrona</li>
+					<li><a href="#"> podstrona</li>
+					<li><a href="#"> podstrona</li>
+					<li><a href="#"> podstrona</li>
+			</li>
+			</ul>
+			<li><a href="#">Kontakt</a></li>
+		</ol>
+		
+		</div>
+		
+		<div class="content">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.<p/>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis.<p/>
+		<p>		Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.<p/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.<p/>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis.<p/>
+
+		
+		</div>
+		
+		<div class="socials">
+			<div class="socialdivs">
+				<div class="fb">fb</div>
+				<div class="youtube">yt</div>
+				<div class="twitter">twitter</div>
+				<div style="clear:both"></div>
+			
+			</div>
+		
+		</div>
+	<div class="footer">
+	wszelkie prawa zastrzezone
+
+	</div>
+	</div>
+	
+		<script> src="jquery-3.3.1.min.js"></script>	
+<script>
+
+	$(document).ready(function(){
+			var navY = $('.nav').offset().top;
+			
+			var stickyNav = function(){
+				var scrollY = $(window).scrollTop();
+				
+				if(scrollY > navY)
+				{
+					$('.nav').addClass('sticky');
+					$('.content').css('padding-top', '70px');
+				}
+				else
+				{
+					$('.nav').removeClass('sticky');
+					$('.content').css('padding-top', '10px');
+				}
+			};
+			
+			stickyNav();
+			
+			$(window).scroll(function(){
+				stickyNav();
+			});
+		});
+	
+</script>
+	
+</body>
+
+
+</html>
